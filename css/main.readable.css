@@ -9,11 +9,16 @@ ul {
   padding: 0;
 }
 
+ul li {
+  padding: 0.75em;
+}
+
 li a {
   text-decoration: none;
   display: block;
   width: 100%;
   color: #fff;
+  text-align: center;
 }
 
 body {
