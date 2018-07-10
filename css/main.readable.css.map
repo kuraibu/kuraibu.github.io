@@ -2,9 +2,9 @@
     "version": 3,
     "mappings": "AAEA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;CACzB",
     "sources": [
-        "main.scss",
-        "header/_navigation.scss"
+        "../sass/main.scss",
+        "../sass/header/_navigation.scss"
     ],
     "names": [],
-    "file": "main.css"
+    "file": "main.readable.css"
 }
