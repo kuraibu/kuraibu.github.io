@@ -11,14 +11,35 @@ ul {
 
 ul li {
   padding: 0.75em;
+  border-bottom: 1px solid #fff;
 }
 
 li a {
+  font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
   display: block;
   width: 100%;
   color: #fff;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    display: inline;
+    border-bottom: 0px;
+  }
+  li a {
+    display: inline;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  li {
+    display: inline;
+  }
 }
 
 body {
