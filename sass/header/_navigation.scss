@@ -24,6 +24,10 @@ li a{
 }
 
 @media #{$query_tablet}{
+    nav{
+    background-color: $color-blue;
+    padding: 1% 0%;
+    }
     li{
         display: inline;
         border-bottom: 0px;
