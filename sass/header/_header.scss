@@ -1,6 +1,9 @@
+header{
+}
 #logo {
     background-color: $color-grey;
     color: #fff;
+    width: 100%;
 }
 
 h1 {
@@ -9,6 +12,9 @@ h1 {
     font-weight: 100;
     margin: 0px;
     padding: 2% 0%;
+    @media #{$query_tablet}{
+        text-align: left;
+    }
 }
 
 h1 span{
