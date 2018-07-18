@@ -77,7 +77,7 @@ li a:hover {
 
 .menu-btn {
   float: right;
-  margin: -3em 3em 0 0;
+  margin: -2.5em 1em 0 0;
 }
 
 @media screen and (min-width: 768px) {
