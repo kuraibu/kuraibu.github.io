@@ -9,6 +9,18 @@ section.hero{
     padding: 0;
     color: #fff;
 }
+section.latest {
+    margin: 0;
+    background-color: $color-lime;
+    color: $color-grey;
+}
+
+section.connect {
+    background-color: $color-blue;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
 
 section.contact{
     background-color: $color-blue;
