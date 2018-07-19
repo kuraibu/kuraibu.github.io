@@ -2,7 +2,7 @@ article h2{
     color: $color-grey;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 2em;
+    margin: 2em 5em;
 }
 
 @media #{$query_tablet}{
@@ -16,4 +16,9 @@ article h2{
     article h2{
         margin: 3em 0em 0em 2em;
     }
+}
+
+article {
+    padding: 1em 3em;
+    color: $color-grey;
 }
