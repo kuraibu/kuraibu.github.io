@@ -100,7 +100,6 @@ section.hero {
 
 section.latest {
   margin: 0;
-  background-color: #BFFF60;
   color: #3B3B3B;
 }
 
@@ -109,6 +108,12 @@ section.connect {
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
+  padding: 1em 0 4em 0;
+}
+
+section.connect img {
+  width: 20%;
+  margin: 1em 1.5em 0 1.5em;
 }
 
 section.contact {
