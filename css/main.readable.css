@@ -100,7 +100,13 @@ section.hero {
 
 section.latest {
   margin: 0;
-  color: #3B3B3B;
+  color: #fff;
+  background-color: #FF6A48;
+  padding: .25em 0 4em 0;
+}
+
+section.latest h1 {
+  margin: 0;
 }
 
 section.connect {

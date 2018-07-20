@@ -11,7 +11,13 @@ section.hero{
 }
 section.latest {
     margin: 0;
-    color: $color-grey;
+    color: #fff;
+    background-color: $color-rose;
+    padding: .25em 0 4em 0;
+
+    h1 {
+        margin: 0;
+    }
 }
 
 section.connect {
