@@ -20,5 +20,12 @@ article h2{
 
 article {
     padding: 1em 3em;
-    color: $color-grey;
+    color: #fff;
+    background-color: $color-rose;
+}
+
+.copy {
+    background-color: $color-rose;
+    width: 100%;
+    
 }
