@@ -1,0 +1,66 @@
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Pixels and Code - Home</title>
+        <meta name="description" content="">
+        <meta name="author" content="Clive Tshuma">
+
+         <!--Mobile specific meta goodness :)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--css-->
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.min.css">
+
+        <script src="https://code.jquery.com/jquery-3.3.0.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    </head>
+    <body>
+        <header>
+            <div id="logo"><h1>Pixels&<span>Code</span></h1></div>
+            <span class="menu-btn">
+                <a href="#" class="toggle">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </a>
+            </span>
+            <nav class="navbar">
+                <ul class="">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../articles.html">Articles</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="blogpost">
+            <img src="../img/office-1834294.jpg">
+            <h2>10 Ways To Increase Your Productivity</h2>
+            <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."</p>
+        </section>
+        <section class="connect">
+            <h2>Connect With Me</h2>
+            <a href="https://twitter.com/clivetshuma"><img src="../img/Twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/pixelsncode/"><img src="../img/Instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/kuraibu"><img src="../img/Github.png" alt="Git Hub"></a>
+        </section>
+        <footer>
+            <p>&copy; 2018 Pixels&amp;<span>Code</span>. Designed by Clive Tshuma</p>
+        </footer>
+    </body>
+</html>

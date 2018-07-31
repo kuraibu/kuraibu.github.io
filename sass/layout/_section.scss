@@ -33,7 +33,9 @@ section.latest {
     color: $color-grey;
     padding: .25em 0 4em 0;
 
+
     h2{
+        display: block;
         margin: 2em 0;
         text-align: center;
     }
@@ -64,6 +66,14 @@ section.latest {
         p{
             margin: 0 1em;
         }
+
+       @media #{$query_tablet} {
+           width: 45%;
+       } 
+
+       @media #{$query_laptop} {
+        width: 30%;
+    } 
     }
 }
 
@@ -77,6 +87,11 @@ section.connect {
     img {
         width: 15%;
         margin: 1em 1.5em 0 1.5em;
+
+        @media #{$query_tablet}{
+            width: 10%;
+            margin: 2em 4em 0 4em; 
+        }
     }
 }
 
@@ -89,4 +104,19 @@ section.contact{
     font-size: 1em;
     font-family: Helvetica, Arial, sans-serif;
 
+}
+
+.blogpost{
+    img{
+        width: 100%;
+
+        @media #{$query_tablet}{
+            max-height: 45vh;
+            object-fit: cover;
+        }
+
+        @media #{$query_laptop}{
+            max-height: 50vh;
+        }
+    }
 }
