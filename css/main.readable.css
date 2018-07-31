@@ -1,10 +1,10 @@
-#logo {
+header #logo {
   background-color: #3B3B3B;
   color: #fff;
   width: 100%;
 }
 
-h1 {
+header h1 {
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   font-weight: 100;
@@ -13,12 +13,12 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  h1 {
+  header h1 {
     text-align: left;
   }
 }
 
-h1 span {
+header h1 span {
   color: #BFFF60;
 }
 
@@ -95,24 +95,67 @@ li a:hover {
 
 section.hero {
   background-color: #3958A7;
-  padding: 4em 0;
+  padding: 10em 0;
+  text-align: center;
+  color: #fff;
 }
 
-.hero h1 {
-  text-align: center;
+section.hero h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
   margin: 0;
   padding: 0;
-  color: #fff;
+}
+
+section.hero h1 span {
+  color: #BFFF60;
+}
+
+section.hero h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
 }
 
 section.latest {
   margin: 0;
+  background-color: #f7f8f9;
   color: #3B3B3B;
   padding: .25em 0 4em 0;
 }
 
-section.latest h1 {
-  margin: 0;
+section.latest h2 {
+  margin: 2em 0;
+  text-align: center;
+}
+
+section.latest .post {
+  background-color: #fff;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+section.latest .post .box {
+  width: 100%;
+}
+
+section.latest .post .box img {
+  width: 100%;
+}
+
+section.latest .post h3 {
+  margin: 1em 1em;
+}
+
+section.latest .post p {
+  margin: 0 1em;
 }
 
 section.connect {

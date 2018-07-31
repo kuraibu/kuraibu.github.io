@@ -1,5 +1,4 @@
 header{
-}
 #logo {
     background-color: $color-grey;
     color: #fff;
@@ -15,8 +14,10 @@ h1 {
     @media #{$query_tablet}{
         text-align: left;
     }
+    span{
+        color: $color-lime;
+    }
+    
 }
 
-h1 span{
-    color: $color-lime;
 }
