@@ -129,6 +129,7 @@ section.contact{
 .articles {
     display: flex;
     flex-flow: column nowrap;
+    height: 90vh;
     @media #{$query_tablet}{
         flex-flow: row wrap;
     }
@@ -139,6 +140,7 @@ section.contact{
     width: 90%;
     margin: 0 auto;
     padding: 1em 0;
+    border-bottom: solid 1px #ddd;
     img {
         display: none;
     }
@@ -146,6 +148,7 @@ section.contact{
     @media #{$query_tablet}{
         width: 35%;
         margin: 2.5em auto;
+        border: none;
 
         img{
             display: block;

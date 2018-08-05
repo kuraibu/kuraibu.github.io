@@ -237,6 +237,7 @@ section.contact {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+  height: 90vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -253,6 +254,7 @@ section.contact {
   width: 90%;
   margin: 0 auto;
   padding: 1em 0;
+  border-bottom: solid 1px #ddd;
 }
 
 .thumbnails img {
@@ -263,6 +265,7 @@ section.contact {
   .thumbnails {
     width: 35%;
     margin: 2.5em auto;
+    border: none;
   }
   .thumbnails img {
     display: block;
