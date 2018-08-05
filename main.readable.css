@@ -93,6 +93,23 @@ li a:hover {
   }
 }
 
+.bigbox {
+  height: 100vh;
+  width: 100%;
+  background-color: #3B3B3B;
+}
+
+section.placeholder {
+  display: inline-block;
+  background-color: #3B3B3B;
+  margin-top: 30%;
+  padding: 0 0 0;
+  width: 100%;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
 .content {
   width: 75%;
   margin: 0 auto;
@@ -136,10 +153,16 @@ section.latest h2 {
 
 section.latest .post {
   background-color: #fff;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   padding-bottom: 2em;
   font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 section.latest .post .box {
@@ -229,54 +252,6 @@ section.contact {
   }
 }
 
-.articles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-}
-
-@media screen and (min-width: 768px) {
-  .articles {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-  }
-}
-
-.thumbnails {
-  display: block;
-  width: 90%;
-  margin: 0 auto;
-  padding: 1em 0;
-}
-
-.thumbnails img {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .thumbnails {
-    width: 35%;
-    margin: 2.5em auto;
-  }
-  .thumbnails img {
-    display: block;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .thumbnails {
-    width: 30%;
-    margin: 1em auto;
-  }
-}
-
 article h2 {
   color: #3B3B3B;
   font-family: Arial, Helvetica, sans-serif;
@@ -316,5 +291,9 @@ footer {
   text-align: center;
   bottom: 0;
   padding: .5em 0;
+}
+
+body {
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.readable.css.map */

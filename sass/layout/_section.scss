@@ -42,16 +42,11 @@ section.latest {
 
     .post {
         background-color: #fff;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
         padding-bottom: 2em;
         font-family: Helvetica, Arial, sans-serif;
-        border: 1px solid $color-lgrey;
-        border-radius: 3px;               
-        -webkit-border-radius: 3px;                
-        -moz-border-radius: 3px;            
-        -ms-border-radius: 3px;                
-        -o-border-radius: 3px;                
+                       
             
         .box{
             width: 100%;
@@ -69,6 +64,7 @@ section.latest {
 
        @media #{$query_tablet} {
            width: 45%;
+           
        } 
 
        @media #{$query_laptop} {
@@ -107,6 +103,15 @@ section.contact{
 }
 
 .blogpost{
+    ol{
+        width: 100%;
+
+        @media #{$query_tablet}{
+            width: 80%;
+            margin: 10% auto 0;
+        }
+    }
+
     img{
         width: 100%;
 
@@ -118,5 +123,38 @@ section.contact{
         @media #{$query_laptop}{
             max-height: 50vh;
         }
+    }
+}
+
+.articles {
+    display: flex;
+    flex-flow: column nowrap;
+    @media #{$query_tablet}{
+        flex-flow: row wrap;
+    }
+}
+
+.thumbnails {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
+    img {
+        display: none;
+    }
+
+    @media #{$query_tablet}{
+        width: 35%;
+        margin: 2.5em auto;
+
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+
+    @media #{$query_laptop}{
+        width: 30%;
+        margin: 1em auto;
     }
 }
