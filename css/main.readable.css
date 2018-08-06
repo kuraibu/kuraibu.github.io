@@ -100,7 +100,7 @@ li a:hover {
 
 section.hero {
   background-color: #3958A7;
-  padding: 10em 0;
+  padding: 10em 0 1em;
   text-align: center;
   color: #fff;
 }
@@ -119,6 +119,16 @@ section.hero h1 span {
 section.hero h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 100;
+  margin-bottom: 5em;
+}
+
+section.hero a {
+  color: #fff;
+  display: inline-block;
+  border: solid 1px #fff;
+  padding: 1.5%;
+  -webkit-box-shadow: 2.5px 3px rgba(255, 255, 255, 0.1);
+          box-shadow: 2.5px 3px rgba(255, 255, 255, 0.1);
 }
 
 section.latest {
@@ -237,7 +247,7 @@ section.contact {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -252,6 +262,7 @@ section.contact {
 .thumbnails {
   display: block;
   width: 90%;
+  height: auto;
   margin: 0 auto;
   padding: 1em 0;
   border-bottom: solid 1px #ddd;
@@ -259,6 +270,15 @@ section.contact {
 
 .thumbnails img {
   display: none;
+}
+
+.thumbnails h3, .thumbnails p {
+  color: #3B3B3B;
+}
+
+.thumbnails a:hover h3 {
+  text-decoration: underline;
+  color: #3958A7;
 }
 
 @media screen and (min-width: 768px) {
@@ -271,6 +291,9 @@ section.contact {
     display: block;
     width: 100%;
   }
+  .thumbnails p {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -278,6 +301,10 @@ section.contact {
     width: 30%;
     margin: 1em auto;
   }
+}
+
+.about {
+  height: 80vh;
 }
 
 article h2 {

@@ -4,7 +4,7 @@
 }
 section.hero{
     background-color: $color-blue;
-    padding: 10em 0;
+    padding: 10em 0 1em;
     text-align: center;
     color: #fff;
     
@@ -23,6 +23,16 @@ section.hero{
     h2{
         font-family: Helvetica, Arial, sans-serif;
         font-weight: 100;
+        margin-bottom: 5em;
+    }
+
+    a {
+        color: #fff;
+        display: inline-block;
+        border: solid 1px #fff;
+        padding: 1.5%;
+        box-shadow: 2.5px 3px rgba(255, 255, 255, 0.1); 
+
     }
 }
 
@@ -129,7 +139,7 @@ section.contact{
 .articles {
     display: flex;
     flex-flow: column nowrap;
-    height: 90vh;
+    min-height: 90vh;
     @media #{$query_tablet}{
         flex-flow: row wrap;
     }
@@ -138,11 +148,20 @@ section.contact{
 .thumbnails {
     display: block;
     width: 90%;
+    height: auto;
     margin: 0 auto;
     padding: 1em 0;
     border-bottom: solid 1px #ddd;
     img {
         display: none;
+    }
+
+    h3, p {
+        color: $color-grey 
+    }
+    a:hover h3{
+        text-decoration: underline;
+        color: $color-blue;
     }
 
     @media #{$query_tablet}{
@@ -153,6 +172,9 @@ section.contact{
         img{
             display: block;
             width: 100%;
+        }
+        p{
+            display: none;
         }
     }
 
