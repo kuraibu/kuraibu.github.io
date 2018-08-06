@@ -101,16 +101,6 @@ section.connect {
     }
 }
 
-section.contact{
-    background-color: $color-blue;
-    color: #fff;
-}
-
-.contact p {
-    font-size: 1em;
-    font-family: Helvetica, Arial, sans-serif;
-
-}
 
 .blogpost{
     ol{
@@ -188,5 +178,41 @@ section.contact{
     @media #{$query_laptop}{
         width: 30%;
         margin: 1em auto;
+    }
+}
+
+section.contact{
+    background-color: $color-blue;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+
+    h1 {
+        margin: 0 0 1em;
+    }
+
+    p{
+        font-size: 1em;
+        margin: 0 0 1em;
+    }
+}
+
+.form {
+    min-height: 75%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+
+    label, input, textarea{
+        display: block;
+        color: $color-grey;
+    }
+
+    input{
+        margin: 0 0 1em;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
     }
 }

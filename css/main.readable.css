@@ -200,16 +200,6 @@ section.connect img {
   }
 }
 
-section.contact {
-  background-color: #3958A7;
-  color: #fff;
-}
-
-.contact p {
-  font-size: 1em;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
 .blogpost ol {
   width: 100%;
 }
@@ -309,6 +299,42 @@ section.contact {
     width: 30%;
     margin: 1em auto;
   }
+}
+
+section.contact {
+  background-color: #3958A7;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+section.contact h1 {
+  margin: 0 0 1em;
+}
+
+section.contact p {
+  font-size: 1em;
+  margin: 0 0 1em;
+}
+
+.form {
+  min-height: 75%;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form label, .form input, .form textarea {
+  display: block;
+  color: #3B3B3B;
+}
+
+.form input {
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+.form textarea {
+  width: 100%;
 }
 
 .about {
