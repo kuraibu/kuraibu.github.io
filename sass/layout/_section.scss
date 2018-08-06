@@ -152,12 +152,19 @@ section.contact{
     margin: 0 auto;
     padding: 1em 0;
     border-bottom: solid 1px #ddd;
+    &:last-child{
+        border: none;
+    }
     img {
         display: none;
     }
 
+    p.meta {
+        font-size: .8em;
+    }
+
     h3, p {
-        color: $color-grey 
+        color: $color-grey;
     }
     a:hover h3{
         text-decoration: underline;

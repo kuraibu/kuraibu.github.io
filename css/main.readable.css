@@ -268,8 +268,16 @@ section.contact {
   border-bottom: solid 1px #ddd;
 }
 
+.thumbnails:last-child {
+  border: none;
+}
+
 .thumbnails img {
   display: none;
+}
+
+.thumbnails p.meta {
+  font-size: .8em;
 }
 
 .thumbnails h3, .thumbnails p {
