@@ -341,6 +341,16 @@ section.contact p {
   min-height: 80vh;
 }
 
+.about ul {
+  display: block;
+}
+
+.about ul li {
+  background-color: #fff;
+  font-weight: 600;
+  border-bottom: 1em;
+}
+
 article h2 {
   color: #3B3B3B;
   font-family: Arial, Helvetica, sans-serif;
