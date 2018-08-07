@@ -145,6 +145,10 @@ section.connect {
     &:last-child{
         border: none;
     }
+
+    &:nth-child(even){
+        background-color: #ccc;
+    }
     img {
         display: none;
     }
