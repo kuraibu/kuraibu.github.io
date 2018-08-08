@@ -55,24 +55,28 @@
         </section>
         <section class="form">
             <h2>Contact Us</h2>
-            <form method="POST" name="form" action="contact">
+            <form method="POST" name="form" action="contact.php">
                 <label>
                     Name
                 </label>
-                <input>
+                <input name="name" type="text" placeholder="John Doe">
                 <label>
                     Email
                 </label>
-                <input>
+                <input name="email" type="email" placeholder="johndoe@123.com">
                 <label>
                     Contact Number
                 </label>
-                <input>
+                <input name="number" type="text">
+                <label>
+                    Subject
+                </label>
+                <input name="subject" type="text">
                 <label>
                     Message
                 </label>
-                <textarea></textarea>
-                <button>Send</button>
+                <textarea name="message" placeholder="Type Here"></textarea>
+                <button name="submit" type="submit" value="submit">Send</button>
                 <button>Clear</button>
             </form>
         </section>

@@ -340,7 +340,7 @@ section.contact p {
 .form input {
   border: none;
   border-bottom: solid 1px #ddd;
-  padding: 1em;
+  padding: 1em 1em 0.3em;
 }
 
 .form textarea {
