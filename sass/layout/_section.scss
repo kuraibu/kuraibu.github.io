@@ -145,10 +145,6 @@ section.connect {
     &:last-child{
         border: none;
     }
-
-    &:nth-child(even){
-        background-color: #ccc;
-    }
     img {
         display: none;
     }
@@ -201,10 +197,14 @@ section.contact{
 }
 
 .form {
-    min-height: 75%;
+    min-height: 50%;
     display: block;
     width: 80%;
-    margin: 0 auto;
+    margin: 2em auto 0;
+
+    form{
+        margin-top: 3em;
+    }
 
     label, input, textarea{
         display: block;
@@ -214,6 +214,12 @@ section.contact{
     input, textarea{
         margin: 0 0 1em;
         width: 100%;
+    }
+
+    input{
+        border: none;
+        border-bottom: solid 1px #ddd;
+        padding: 1em;
     }
 
     textarea {

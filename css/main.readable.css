@@ -262,10 +262,6 @@ section.connect img {
   border: none;
 }
 
-.thumbnails:nth-child(even) {
-  background-color: #ccc;
-}
-
 .thumbnails img {
   display: none;
 }
@@ -321,10 +317,14 @@ section.contact p {
 }
 
 .form {
-  min-height: 75%;
+  min-height: 50%;
   display: block;
   width: 80%;
-  margin: 0 auto;
+  margin: 2em auto 0;
+}
+
+.form form {
+  margin-top: 3em;
 }
 
 .form label, .form input, .form textarea {
@@ -335,6 +335,12 @@ section.contact p {
 .form input, .form textarea {
   margin: 0 0 1em;
   width: 100%;
+}
+
+.form input {
+  border: none;
+  border-bottom: solid 1px #ddd;
+  padding: 1em;
 }
 
 .form textarea {
