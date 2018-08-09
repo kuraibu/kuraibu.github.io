@@ -131,6 +131,45 @@ section.hero a {
           box-shadow: 2.5px 3px rgba(255, 255, 255, 0.1);
 }
 
+section.info {
+  display: block;
+  width: 80%;
+  padding: 0 10%;
+}
+
+section.info h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+@media screen and (min-width: 1200px) {
+  section.info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+section.info .heading {
+  width: 50%;
+}
+
+section.info .heading h1 {
+  text-align: right;
+  margin-right: 10%;
+}
+
+section.info aside {
+  width: 50%;
+  padding-right: 10%;
+}
+
+section.info aside p {
+  margin: 9% 0;
+}
+
 section.latest {
   margin: 0;
   background-color: #f7f8f9;
@@ -197,6 +236,12 @@ section.connect img {
   section.connect img {
     width: 10%;
     margin: 2em 4em 0 4em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section.connect img {
+    width: 5%;
   }
 }
 
@@ -305,6 +350,8 @@ section.contact {
   background-color: #3958A7;
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 4em 0;
 }
 
 section.contact h1 {
@@ -321,6 +368,10 @@ section.contact p {
   display: block;
   width: 80%;
   margin: 2em auto 0;
+}
+
+.form h1 {
+  display: block;
 }
 
 .form form {
@@ -345,6 +396,33 @@ section.contact p {
 
 .form textarea {
   width: 100%;
+  border-color: #ddd;
+  margin: 1em 0 1em;
+  height: 25%;
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    display: block;
+    width: 100%;
+    margin: 5em 0 0;
+    padding: 0;
+  }
+  .form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .form form .fields {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .form form .msg-area {
+    width: 45%;
+    margin: 0 auto;
+  }
 }
 
 .about {

@@ -29,7 +29,7 @@
     </head>
     <body>
         <header>
-            <div id="logo"><h1>Pixels&<span>Code</span></h1></div>
+            <div id="logo"><h1>Pixels&amp;<span>Code</span></h1></div>
             <span class="menu-btn">
                 <a href="#" class="toggle">
                     <svg width="30" height="30">
@@ -44,7 +44,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="articles.html">Articles</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -54,30 +54,32 @@
                 a message before and I'll be happy to send you a free quote.</p>
         </section>
         <section class="form">
-            <h2>Contact Us</h2>
             <form method="POST" name="form" action="contact.php">
-                <label>
-                    Name
-                </label>
-                <input name="name" type="text" placeholder="John Doe">
-                <label>
-                    Email
-                </label>
-                <input name="email" type="email" placeholder="johndoe@123.com">
-                <label>
-                    Contact Number
-                </label>
-                <input name="number" type="text">
-                <label>
-                    Subject
-                </label>
-                <input name="subject" type="text">
-                <label>
-                    Message
-                </label>
-                <textarea name="message" placeholder="Type Here"></textarea>
-                <button name="submit" type="submit" value="submit">Send</button>
-                <button>Clear</button>
+                <div class="fields">
+                    <label>
+                        Name
+                    </label>
+                    <input name="name" type="text" placeholder="John Doe">
+                    <label>
+                        Email
+                    </label>
+                    <input name="email" type="email" placeholder="johndoe@123.com">
+                    <label>
+                        Contact Number
+                    </label>
+                    <input name="number" type="text">
+                    <label>
+                        Subject
+                    </label>
+                    <input name="subject" type="text">
+                </div>
+                <div class="msg-area">
+                    <label>
+                        Message
+                    </label>
+                    <textarea name="message" placeholder="Type Here"></textarea>
+                    <button name="submit" type="submit" value="submit">Send</button>
+                </div>
             </form>
         </section>
         <section class="connect">
