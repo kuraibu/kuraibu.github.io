@@ -150,24 +150,20 @@ section.info h1 {
     width: 100%;
     padding: 0;
   }
-}
-
-section.info .heading {
-  width: 50%;
-}
-
-section.info .heading h1 {
-  text-align: right;
-  margin-right: 10%;
-}
-
-section.info aside {
-  width: 50%;
-  padding-right: 10%;
-}
-
-section.info aside p {
-  margin: 9% 0;
+  section.info .heading {
+    width: 50%;
+  }
+  section.info .heading h1 {
+    text-align: right;
+    margin-right: 10%;
+  }
+  section.info aside {
+    width: 35%;
+    padding-right: 15%;
+  }
+  section.info aside p {
+    margin: 12% 0;
+  }
 }
 
 section.latest {
