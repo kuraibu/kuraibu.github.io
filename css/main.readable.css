@@ -259,6 +259,7 @@ section.connect img {
 
 .blogpost ol {
   width: 100%;
+  padding: 0;
 }
 
 .blogpost img {
