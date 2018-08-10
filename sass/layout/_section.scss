@@ -234,6 +234,7 @@ section.contact{
     p{
         font-size: 1em;
         margin: 0 0 1em;
+        padding: 0 1em;
     }
 }
 
@@ -284,7 +285,7 @@ section.contact{
 
         form{
             display: flex;
-            width: 90%;
+            width: 70%;
             margin: 0 auto;
 
             .fields{
