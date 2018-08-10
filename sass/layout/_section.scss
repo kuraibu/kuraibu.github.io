@@ -127,7 +127,7 @@ section.connect {
 
     img {
         width: 15%;
-        margin: 1em 1.5em 0 1.5em;
+        margin: 1em 3em 0;
 
         @media #{$query_tablet}{
             width: 10%;
@@ -142,6 +142,19 @@ section.connect {
 
 
 .blogpost{
+
+    h2, .meta{
+        text-align: center;
+    }
+
+    a{
+        display: inline;
+        color: $color-blue;
+        &:hover{
+            text-decoration: underline;
+            background: none;
+        }
+    }
     ol{
         width: 100%;
 

@@ -227,7 +227,7 @@ section.connect {
 
 section.connect img {
   width: 15%;
-  margin: 1em 1.5em 0 1.5em;
+  margin: 1em 3em 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -241,6 +241,20 @@ section.connect img {
   section.connect img {
     width: 5%;
   }
+}
+
+.blogpost h2, .blogpost .meta {
+  text-align: center;
+}
+
+.blogpost a {
+  display: inline;
+  color: #3958A7;
+}
+
+.blogpost a:hover {
+  text-decoration: underline;
+  background: none;
 }
 
 .blogpost ol {
