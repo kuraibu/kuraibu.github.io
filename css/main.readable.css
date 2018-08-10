@@ -28,24 +28,6 @@ header #logo h1 span {
   }
 }
 
-header h1 {
-  font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
-  font-weight: 100;
-  margin: 0px;
-  padding: 2% 0%;
-}
-
-@media screen and (min-width: 768px) {
-  header h1 {
-    text-align: left;
-  }
-}
-
-header h1 span {
-  color: #BFFF60;
-}
-
 nav {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -265,13 +247,6 @@ section.connect img {
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  .blogpost ol {
-    width: 80%;
-    margin: 10% auto 0;
-  }
-}
-
 .blogpost img {
   width: 100%;
 }
@@ -287,6 +262,17 @@ section.connect img {
 @media screen and (min-width: 1200px) {
   .blogpost img {
     max-height: 50vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .blogpost .txt {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blogpost .txt ol {
+    padding: 0;
+    margin: 3em 0;
   }
 }
 

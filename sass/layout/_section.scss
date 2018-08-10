@@ -145,10 +145,6 @@ section.connect {
     ol{
         width: 100%;
 
-        @media #{$query_tablet}{
-            width: 80%;
-            margin: 10% auto 0;
-        }
     }
 
     img{
@@ -161,6 +157,18 @@ section.connect {
 
         @media #{$query_laptop}{
             max-height: 50vh;
+        }
+    }
+
+    @media #{$query_tablet}{
+        .txt{
+            width: 80%;
+            margin: 0 auto;
+
+            ol{
+                padding: 0;
+                margin: 3em 0;
+            }
         }
     }
 }
