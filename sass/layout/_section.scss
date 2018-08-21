@@ -176,9 +176,6 @@ section.connect {
     }
 
     @media #{$query_tablet}{
-        .meta {
-            font-size: .2em;
-        }
         .txt{
             width: 80%;
             margin: 0 auto;
@@ -245,8 +242,13 @@ section.connect {
         margin: 1em auto;
     }
 }
-.share-menu{
+.share-menu{ 
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     img{
+        margin: 0 1em;
         width: 1.5em;
     }
 }

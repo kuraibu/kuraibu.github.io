@@ -54,3 +54,11 @@ article {
     width: 100%;
     
 }
+
+p.meta {
+    font-size: .8em;
+
+    @media #{$query_tablet}{
+        font-size: .9em;
+    }
+}
