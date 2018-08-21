@@ -49,18 +49,18 @@ nav ul {
   }
 }
 
-nav .active {
+.active {
   display: block;
   -webkit-transition: 2s;
   transition: 2s;
 }
 
-nav ul li {
+ul li {
   display: block;
   background-color: #3B3B3B;
 }
 
-nav li a {
+li a {
   text-decoration: none;
   color: #fff;
   font-size: 1.25em;
@@ -73,23 +73,23 @@ nav li a {
   transition: .5s;
 }
 
-nav li a:hover {
+li a:hover {
   background-color: #3958A7;
 }
 
 @media screen and (min-width: 768px) {
-  nav li a {
+  li a {
     width: 5em;
   }
 }
 
-nav .menu-btn {
+.menu-btn {
   float: right;
   margin: -2.5em 1em 0 0;
 }
 
 @media screen and (min-width: 768px) {
-  nav .menu-btn {
+  .menu-btn {
     display: none;
   }
 }
@@ -329,6 +329,10 @@ section.connect img {
 
 .thumbnails img {
   display: none;
+}
+
+.thumbnails p.meta {
+  font-size: .3em;
 }
 
 .thumbnails h3, .thumbnails p {
