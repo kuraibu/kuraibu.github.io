@@ -1,0 +1,79 @@
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Pixels and Code - Home</title>
+        <meta name="description" content="">
+        <meta name="author" content="Clive Tshuma">
+
+         <!--Mobile specific meta goodness :)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--css-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.min.css">
+
+        <script src="https://code.jquery.com/jquery-3.3.0.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    </head>
+    <body>
+        <header>
+            <div id="logo"><h1>Pixels&amp;<span>Code</span></h1></div>
+            <span class="menu-btn">
+                <a href="#" class="toggle">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </a>
+            </span>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article class="about">
+            <h2>About</h2>
+                            <p>Hello! Hello! My name is Clive Tshuma. I am a front end developer and the founder of 
+                                Pixels &amp; Code. This space was developed as a way for me to pass on knowledge 
+                                as I continue to better myself as a developer. As I go through projects I aim to 
+                                fill this website with lots of tips and tricks to hopefully help improve your workflow 
+                                and to solve any problems you might face.
+                                <br><br>
+                                I will be working with:<br>
+                                <ul>
+                                    <li>HTML/CSS</li>
+                                    <li>SCSS</li>
+                                    <li>JavaScript</li>
+                                    <li>AngularJS</li>
+                                    <li>PHP/MySQL</li>
+                                    <li>Python</li>
+                                    <li>Wordpress</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                                 <br><br>
+                                If there are any guides you would like me to look into making on these, I am very open to suggestions.
+                                    
+                                If you need someone that can offer you any of these services, get in touch.</p>
+        </article>
+        <footer>
+            <p>&copy; 2018 Pixels&amp;<span>Code</span>. Designed by Clive Tshuma</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Pixels and Code - Home</title>
+        <meta name="description" content="">
+        <meta name="author" content="Clive Tshuma">
+
+         <!--Mobile specific meta goodness :)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--css-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.min.css">
+
+        <script src="https://code.jquery.com/jquery-3.3.0.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    </head>
+    <body>
+        <header>
+            <div id="logo"><h1>Pixels&amp;<span>Code</span></h1></div>
+            <span class="menu-btn">
+                <a href="#" class="toggle">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                </a>
+            </span>
+            <nav class="navbar">
+                <ul class="">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contact">
+            <h1>Get in touch</h1>
+            <p>For any enquiries please contact me through email or leave 
+                a message before and I'll be happy to send you a free quote.</p>
+        </section>
+        <section class="form">
+            <form method="POST" name="form" action="contact.php">
+                <div class="fields">
+                    <label>
+                        Name
+                    </label>
+                    <input name="name" type="text" placeholder="John Doe">
+                    <label>
+                        Email
+                    </label>
+                    <input name="email" type="email" placeholder="johndoe@123.com">
+                    <label>
+                        Contact Number
+                    </label>
+                    <input name="number" type="text" placeholder="">
+                    <label>
+                        Subject
+                    </label>
+                    <input name="subject" type="text" placeholder="Subject">
+                </div>
+                <div class="msg-area">
+                    <label>
+                        Message
+                    </label>
+                    <textarea name="message" placeholder="Type Here"></textarea>
+                    <button name="submit" type="submit" value="submit">Send</button>
+                </div>
+            </form>
+        </section>
+        <section class="connect">
+            <h2>Connect With Me</h2>
+            <a href="https://twitter.com/clivetshuma"><img src="img/Twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/pixelsncode/"><img src="img/Instagram.png" alt="Twitter"></a>
+            <a href="https://github.com/kuraibu"><img src="img/Github.png" alt="Twitter"></a>
+        </section>      
+        <footer>
+            <p>&copy; 2018 Pixels&amp;<span>Code</span>. Designed by Clive Tshuma</p>
+        </footer>
+    </body>
+</html>

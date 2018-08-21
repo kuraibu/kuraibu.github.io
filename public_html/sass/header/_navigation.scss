@@ -13,7 +13,7 @@ nav {
         }
     }
     
-
+}
 
 
 .active {
@@ -23,6 +23,9 @@ nav {
 ul li{
     display: block;
     background-color: $color-grey;
+    @media #{$query_tablet}{
+        
+    }
 }
 
 li a {
@@ -52,5 +55,4 @@ li a {
     @media #{$query_tablet}{
         display: none;
     }
-}
 }

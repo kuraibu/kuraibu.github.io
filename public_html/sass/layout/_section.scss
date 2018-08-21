@@ -214,6 +214,9 @@ section.connect {
         display: none;
     }
 
+    p.meta {
+        font-size: .3em;
+    }
 
     h3, p {
         color: $color-grey;
@@ -240,11 +243,6 @@ section.connect {
     @media #{$query_laptop}{
         width: 30%;
         margin: 1em auto;
-    }
-}
-.share-menu{
-    img{
-        width: 1.5em;
     }
 }
 
